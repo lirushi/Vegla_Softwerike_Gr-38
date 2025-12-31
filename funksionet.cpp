@@ -66,4 +66,21 @@ void fshijStudent() {
     total--;
     cout << "Studenti u fshi me sukses.\n";
 }
+//Tregon sa student kane kaluar lenden dhe perqindjen e studenteve kalues
+void numriStudenteveKalues() {
+    if (total == 0) {
+        cout << "Nuk ka studente.\n";
+        return;
+    }
+
+    int kalues = 0;
+    for (int i = 0; i < total; i++) {
+        if (notatMatematike[i] >= 5)
+            kalues++;
+    }
+
+    float perqindja = (float)kalues / total * 100;
+    cout << "Studente kalues: " << kalues
+         << " (" << perqindja << "%)\n";
+}
 

@@ -6,5 +6,6 @@ using namespace std;
 
 void shtoStudent();
 void fshijStudent();
+void numriStudenteveKalues();
 
 #endif
