@@ -81,6 +81,6 @@ void numriStudenteveKalues() {
 
     float perqindja = (float)kalues / total * 100;
     cout << "Studente kalues: " << kalues
-         << " (" << perqindja << "%)\n";
+         << " (" << perqindja << " %" << " e studenteve kane kaluar)\n";
 }
 
