@@ -41,3 +41,29 @@ void shtoStudent(){
 
     cout << "Studenti u regjistrua me sukses.\n";
 }
+
+void fshijStudent() {
+    if (total == 0) {
+        cout << "Nuk ka studente per fshirje.\n";
+        return;
+    }
+
+   
+ int index;
+    cout << "Shkruaj numrin e studentit per fshirje: ";
+    cin >> index;
+
+    if (index < 1 || index > total) {
+        cout << "Index i pavlefshem.\n";
+        return;
+    }
+
+    for (int i = index - 1; i < total - 1; i++) {
+        emrat[i] = emrat[i + 1];
+        notatMatematike[i] = notatMatematike[i + 1];
+    }
+
+    total--;
+    cout << "Studenti u fshi me sukses.\n";
+}
+
