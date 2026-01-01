@@ -8,4 +8,7 @@ void shtoStudent();
 void fshijStudent();
 void numriStudenteveKalues();
 
+void shfaqStudentet();
+void kerkoStudent();
+
 #endif
