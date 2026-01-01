@@ -27,13 +27,14 @@ void shtoStudent(){
         }
     }
 //Per studentin e ri regjistron noten e matematikes
+    do {
     cout << "Shkruaj noten e matematikes (5-10): ";
     cin >> nota;
-
     if (nota < 5 || nota > 10) {
-        cout << "Nota e pavlefshme.\n";
-        return;
+        cout << "Nota e pavlefshme, provoni perseri.\n";
     }
+    } while (nota < 5 || nota > 10);
+
 
     emrat[total] = emri;
     notatMatematike[total] = nota;
