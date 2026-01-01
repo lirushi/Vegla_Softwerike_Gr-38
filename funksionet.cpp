@@ -95,4 +95,20 @@ cout << i + 1 << "." << emrat[i]
 << " - Nota: " << notatMatematike[i] << endl;
 }
 }
+void kerkoStudent() {
+string emri;
+cout <<"Shkruaj emrin e studentit: ";
+cin >> emri;
+
+for (int i = 0; i < total; i++) {
+if (emrat[i] == emri) {
+cout << "Studenti u gjet: "
+
+ << emrat[i] << " - "
+ << notatMatematike[i] << endl;
+return;
+}
+}
+cout << "Studenti nuk u gjet.\n";
+}
 
