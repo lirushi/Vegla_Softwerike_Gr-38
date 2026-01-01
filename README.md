@@ -59,5 +59,33 @@ Ky funksion:
 **Shembull Input/Output:**
 - Output: Student kalues: 1 (20 % e studenteve kane kaluar)
 
+# Funksionet - Luna
+
+## Funksioni shfaqStudentet();
+**Pershkrimi:**
+Ky funksion:
+-Shfaq të gjithë studentët që ndodhen në listë.
+-Tregon ID-n, emrin dhe mbiemrin e secilit student.
+
+**Si perdoret**
+-Thirret pa parametra.
+-Funksioni lexon listën ekzistuese të studentëve dhe i printon në ekran.
+
+**Shembull Input/Output:**
+- Output: 
+ID: 1, Emri: Arber, Mbiemri: Krasniqi
 
 
+## Funksioni kerkoStudent();
+**Pershkrimi:**
+Ky funksion:
+-Kërkon një student të caktuar nga lista sipas ID-së.
+-Nëse studenti ekziston, shfaq të dhënat e tij.
+-Nëse studenti nuk gjendet, shfaq një mesazh të përshtatshëm.
+
+**Si perdoret:**
+-Thirret pa parametra.
+-Përdoruesi jep ID-n e studentit që dëshiron të kërkojë.
+
+**Shembull Input/Output:**
+- Input: Shkruaj ID-n e studentit: 2
