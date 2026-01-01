@@ -84,4 +84,15 @@ void numriStudenteveKalues() {
     cout << "Studente kalues: " << kalues
          << " (" << perqindja << " %" << " e studenteve kane kaluar)\n";
 }
+void shfaqStudentet() {
+if (total == 0) {
+cout <<"Nuk ka studente.\n";
+return;
+}
+
+for (int i = 0; i < total; i++) {
+cout << i + 1 << "." << emrat[i]
+<< " - Nota: " << notatMatematike[i] << endl;
+}
+}
 
