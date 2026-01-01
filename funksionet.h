@@ -11,4 +11,8 @@ void numriStudenteveKalues();
 void shfaqStudentet();
 void kerkoStudent();
 
+void numriStudenteve();
+void menu();
+void numriStudenteveDeshtues();
+
 #endif

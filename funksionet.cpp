@@ -112,3 +112,10 @@ return;
 cout << "Studenti nuk u gjet.\n";
 }
 
+
+
+void numriStudenteve() {
+    cout << "Numri total i studenteve: " << total << endl;
+}
+
+
