@@ -118,7 +118,7 @@ void numriStudenteve() {
     cout << "Numri total i studenteve: " << total << endl;
 }
 
-void numriStudenteveDeshtues() {
+void numriiStudenteveDeshtues() {
     int deshtues = 0;
     for (int i = 0; i < total; i++) {
         if (notatMatematike[i] < 5)
