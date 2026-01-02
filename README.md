@@ -151,3 +151,35 @@ Si përdoret:
 8. Studente kalues
 9. Studente deshtues
 0. Dil
+  
+ # Funksionet - Ylli
+
+##Funksioni void ndryshoNoten()
+
+**Përshkrimi:**  
+Ky funksion
+-mundëson ndryshimin e notës së një studenti ekzistues në sistem.
+- Me fjalë të thjeshta:
+  lejon korrigjimin ose përditësimin e një note pa e fshirë studentin.
+⸻
+**Si përdoret funksioni:**  
+- Thirret kur përdoruesi dëshiron të modifikojë notën e një studenti.
+  -Përdoruesi jep:
+  • Numrin e studentit
+  • Notën e re
+  • Funksioni:
+-kontrollon nëse studenti ekziston
+-kontrollon nëse nota është valide
+-e ruan ndryshimin
+⸻
+##Funksioni llogaritMesataren()
+**Përshkrimi**
+-Ky funksion mundëson llogaritjen e mesatares së notave të të gjithë studentëve.
+-Me fjalë të thjeshta:
+tregon performancën mesatare të grupit.
+⸻
+**Si përdoret funksioni**
+- Thirret kur përdoruesi dëshiron të shohë mesataren.
+- Nuk kërkon input nga përdoruesi.
+- Punon me të dhënat ekzistuese (notat dhe numrin e studentëve).
+
