@@ -127,5 +127,17 @@ void numriStudenteveDeshtues() {
 
     cout << "Studente deshtues: " << deshtues << endl;
 }
-
+void menu() {
+    cout << "\n===== MENAXHIMI I NOTAVE =====\n";
+    cout << "1. Regjistro student\n";
+    cout << "2. Shfaq studentet\n";
+    cout << "3. Kerko student\n";
+    cout << "4. Fshij student\n";
+    cout << "5. Ndrysho noten\n";
+    cout << "6. Llogarit mesataren\n";
+    cout << "7. Numri i studenteve\n";
+    cout << "8. Studente kalues\n";
+    cout << "9. Studente deshtues\n";
+    cout << "0. Dil\n";
+}
 
