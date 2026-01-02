@@ -149,7 +149,7 @@ notatMatematike[index - 1] = nota;
 cout &lt;&lt; &quot;Nota u perditesua.\n&quot;;
 
 }
-
+//Llogarit mesataren e studentave//
 void llogaritMesataren() {
 if (total == 0) {
 cout &lt;&lt; &quot;Nuk ka studente.\n&quot;;
