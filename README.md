@@ -89,3 +89,65 @@ Ky funksion:
 
 **Shembull Input/Output:**
 - Input: Shkruaj ID-n e studentit: 2
+
+# Funksionet – Ensari
+
+# Funksioni numriStudenteve();
+
+Përshkrimi:
+Ky funksion:
+	•	Shfaq numrin total të studentëve të regjistruar në sistem.
+	•	Përdor variablën globale total për të marrë këtë informacion.
+
+Si përdoret:
+	•	Thirret pa parametra.
+	•	Funksioni lexon vlerën aktuale të numrit të studentëve dhe e shfaq në ekran.
+
+Shembull Input/Output:
+	•	Output:
+Numri total i studenteve: 10
+
+⸻
+
+# Funksioni numriStudenteveDeshtues();
+
+Përshkrimi:
+Ky funksion:
+	•	Llogarit numrin e studentëve që kanë dështuar në lëndën e matematikës.
+	•	Konsideron si dështues studentët me notë më të vogël se 5.
+	•	Përdor vargun notatMatematike dhe variablën total.
+
+Si përdoret:
+	•	Thirret pa parametra.
+	•	Funksioni kontrollon notat e të gjithë studentëve dhe numëron ata që kanë dështuar.
+
+Shembull Input/Output:
+	•	Output:
+Studente deshtues: 3
+
+⸻
+
+# Funksioni menu();
+
+Përshkrimi:
+Ky funksion:
+	•	Shfaq menunë kryesore të programit për menaxhimin e studentëve dhe notave.
+	•	Ofron opsione të ndryshme për regjistrim, shfaqje, kërkim, fshirje dhe analiza të studentëve.
+
+Si përdoret:
+	•	Thirret pa parametra.
+	•	Shfaq vetëm menunë; zgjedhja e opsioneve bëhet në funksione të tjera (zakonisht në main).
+
+    Shembull Input/Output:
+	•	Output:
+    ===== MENAXHIMI I NOTAVE =====
+1. Regjistro student
+2. Shfaq studentet
+3. Kerko student
+4. Fshij student
+5. Ndrysho noten
+6. Llogarit mesataren
+7. Numri i studenteve
+8. Studente kalues
+9. Studente deshtues
+0. Dil
