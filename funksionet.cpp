@@ -112,3 +112,20 @@ return;
 cout << "Studenti nuk u gjet.\n";
 }
 
+
+
+void numriStudenteve() {
+    cout << "Numri total i studenteve: " << total << endl;
+}
+
+void numriStudenteveDeshtues() {
+    int deshtues = 0;
+    for (int i = 0; i < total; i++) {
+        if (notatMatematike[i] < 5)
+            deshtues++;
+    }
+
+    cout << "Studente deshtues: " << deshtues << endl;
+}
+
+
