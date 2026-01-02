@@ -14,6 +14,7 @@ void kerkoStudent();
 void numriStudenteve();
 void menu();
 void numriStudenteveDeshtues();
+
 void ndryshoNoten();
 void llogaritMesataren();
 
