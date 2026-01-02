@@ -154,14 +154,13 @@ Si përdoret:
   
  # Funksionet - Ylli
 
-##Funksioni void ndryshoNoten()
+ # Funksioni void ndryshoNoten();
 
 **Përshkrimi:**  
-Ky funksion
--mundëson ndryshimin e notës së një studenti ekzistues në sistem.
+Ky funksion mundëson ndryshimin e notës së një studenti ekzistues në sistem.
 - Me fjalë të thjeshta:
   lejon korrigjimin ose përditësimin e një note pa e fshirë studentin.
-⸻
+
 **Si përdoret funksioni:**  
 - Thirret kur përdoruesi dëshiron të modifikojë notën e një studenti.
   -Përdoruesi jep:
@@ -171,15 +170,34 @@ Ky funksion
 -kontrollon nëse studenti ekziston
 -kontrollon nëse nota është valide
 -e ruan ndryshimin
-⸻
-##Funksioni llogaritMesataren()
-**Përshkrimi**
--Ky funksion mundëson llogaritjen e mesatares së notave të të gjithë studentëve.
--Me fjalë të thjeshta:
-tregon performancën mesatare të grupit.
-⸻
+
+
+Shembull Input/Output: 
+
+INPUT nga përdoruesi
+
+    • Numri i studentit që do ndryshohet (p.sh. 2)
+    • Nota e re (p.sh. 10)
+
+ # Funksioni llogaritMesataren();
+**Përshkrimi:**                         
+Ky funksion mundëson llogaritjen e mesatares së notave të të gjithë studentëve.
+   -Me fjalë të thjeshta:
+    tregon performancën mesatare të grupit.
+
+
 **Si përdoret funksioni**
 - Thirret kur përdoruesi dëshiron të shohë mesataren.
 - Nuk kërkon input nga përdoruesi.
 - Punon me të dhënat ekzistuese (notat dhe numrin e studentëve).
+
+
+ Shembull Input/Output:
+ 
+  Nuk kërkon input
+  
+  OUTPUT nga programi
+
+    • Rast normal:
+    • Mesatarja: 8.33
 
