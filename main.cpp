@@ -1,5 +1,11 @@
 #include <iostream>
 #include "funksionet.h"
+#include <string>
+using namespace std;
+
+string emrat[100];
+int notatMatematike[100];
+int total = 0;
 
 using namespace std;
 
