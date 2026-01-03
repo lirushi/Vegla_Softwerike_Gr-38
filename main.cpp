@@ -7,6 +7,7 @@ int main() {
     int zgjedhja;
     do {
         menu();
+        cout << "Zgjidh nje opsion: ";
         cin >> zgjedhja;
 
         switch (zgjedhja) {
