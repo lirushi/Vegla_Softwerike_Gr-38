@@ -10,6 +10,30 @@ Qëllimi kryesor i këtij projekti është të ofrojë një mënyrë efikase pë
 
 Ky projekt është i ndarë në disa module, ku secili anëtar i grupit ka punuar në funksionet e tij përkatëse në branch-et personale. Pas përfundimit të punës, branch-et janë bashkuar (merged) në main branch, duke krijuar versionin final të projektit.  
 
+# Si të kontribuoni?
+
+ - Fork-oni këtë repo në llogarinë tuaj.
+
+- Klononi fork-in në kompjuterin tuaj.
+
+- Krijoni një branch të re për çdo funksionalitet të ri
+
+- Bëni commit dhe push ndryshimet në branch-in tuaj.
+
+- Hapni një Pull Request për të bashkuar ndryshimet në main.
+
+# Si të nisni projektin lokal
+
+- Klononi repositoryn
+
+- Hyni në folder-in e projektit
+
+- Kompajlloni programin
+
+- Ekzekutoni programin
+
+- Sigurohuni që të keni të instaluar një kompajler C++ (p.sh., g++).
+
 # Funksionet - Liri
 
 ## Funksioni shtoStudent()
